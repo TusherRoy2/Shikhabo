@@ -693,8 +693,6 @@ header .heroArea .counter .item p{
             align-items: center;
 }
 .ourTeacher .teachers .iconz i:hover{
-    width: 2rem;
-    height: 2rem;
     background: #1785ff;
     color:#fff;
     border-radius: 50%;
@@ -850,20 +848,22 @@ header .heroArea .counter .item p{
 .footer .ourCom ul{
     padding:1rem;
 }
+
 .footer .ourCom ul li{
     list-style-type: disc;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+.footer .ourCom ul li:hover{
+    margin-left: 1rem;
 }
 .footer .ourCom ul li a{
     font-size: 1.2rem;
     font-weight: 400;
     color:#fff;
-}
-.footer .ourCom ul li a:hover{
-    transform: translateX(1rem);
-    -webkit-transform: translateX(1rem);
-    -moz-transform: translateX(1rem);
-    -ms-transform: translateX(1rem);
-    -o-transform: translateX(1rem);
 }
 .footer .fOurBlog p{
     font-size: 1.4rem;
@@ -877,18 +877,19 @@ header .heroArea .counter .item p{
 }
 .footer .fOurBlog li{
     list-style-type: disc;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+.footer .fOurBlog li:hover{
+    margin-left: 1rem;
 }
 .footer .fOurBlog li a{
     font-size: 1.2rem;
     font-weight: 400;
     color:#fff;
-}
-.footer .fOurBlog li a:hover{
-    transform: translateX(1rem);
-    -webkit-transform: translateX(1rem);
-    -moz-transform: translateX(1rem);
-    -ms-transform: translateX(1rem);
-    -o-transform: translateX(1rem);
 }
 .footer .subsNews p{
     font-size: 1.4rem;
