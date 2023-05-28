@@ -858,6 +858,13 @@ header .heroArea .counter .item p{
     font-weight: 400;
     color:#fff;
 }
+.footer .ourCom ul li a:hover{
+    transform: translateX(1rem);
+    -webkit-transform: translateX(1rem);
+    -moz-transform: translateX(1rem);
+    -ms-transform: translateX(1rem);
+    -o-transform: translateX(1rem);
+}
 .footer .fOurBlog p{
     font-size: 1.4rem;
     font-weight:700;
